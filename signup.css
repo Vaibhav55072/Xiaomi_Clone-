@@ -1,0 +1,115 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        .banner {
+            height: 100vh;
+            background-color: black;
+            width: 400px;
+            background-image: url('https://cdn.web-global.fds.api.mi-img.com/mcfe--mi-account/static/static/media/banner.92c693b4..jpg');
+            background-size: cover;
+        }
+
+        .logo img {
+            margin-left: 420px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+
+        .logo h1 {
+            margin-left: 480px;
+            margin-top: -45px;
+
+        }
+
+        .info {
+            margin-left: 1000px;
+            position: absolute;
+            margin-top: -700px;
+
+
+        }
+
+        .info a {
+            color: orange;
+            display: inline-block;
+            padding: 10px;
+        }
+
+        .info a:hover {
+            color: rgb(226, 200, 152);
+        }
+
+        .container {
+            background-color: rgb(245, 244, 242);
+            height: 500px;
+            width: 450px;
+            margin-left: 750px;
+            margin-top: -580px;
+            border-radius: 10px;
+            box-shadow: 20px 20px 10px grey;
+        }
+
+        .txt h2 {
+            font-weight: 30;
+            margin-left: 180px;
+            padding-top: 40px;
+            font-size: 30px;
+        }
+
+        .select1 {
+            height: 40px;
+            width: 400px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        input {
+            height: 40px;
+            width: 400px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .checkbox{
+            margin-left: -40px;
+        }
+
+        .caution {
+            color: red;
+            font-size: 15px;
+            margin-left: 10px;
+        }
+
+        .terms_Conditions {
+
+            display: flex;
+            margin-left: -80px;
+
+        }
+
+        .terms_Conditions p {
+            font-size: 15px;
+            margin-left: -150px;
+            margin-top: 20px;
+        }
+        .btn{
+            height: 40px;
+            width: 400px;
+            border-radius: 40px;
+            margin-top: 20px;
+            margin-left: 20px;
+            background-color: orange;
+        }
+    
