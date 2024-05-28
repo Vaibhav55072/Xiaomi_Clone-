@@ -14,6 +14,10 @@
 
         }
 
+        body {
+            background-color: rgb(226, 226, 226);
+        }
+
         .nav {
             background-color: rgb(255, 248, 248);
             height: 40px;
@@ -45,18 +49,214 @@
             text-align: center;
             box-shadow: 5px 5px 10px;
         }
-        .txt{
+
+        .txt {
             margin-left: 600px;
             margin-top: 30px;
         }
-        .icons{
+
+        .sym {
+            display: flex;
+            gap: 80px;
+            justify-content: space-evenly;
+            margin-top: 60px;
+        }
+
+        .sym h2:hover {
+            color: rgb(183, 182, 182)
+        }
+
+        .acc h2 {
+            font-weight: 20;
+            margin-left: -20px;
+        }
+
+        .search h2 {
+            font-weight: 20;
+            margin-left: -15px;
+        }
+
+        .warranty h2 {
+            font-weight: 20;
+            margin-left: -20px;
+        }
+
+        .guide h2 {
+            font-weight: 20;
+            margin-left: 5px;
+        }
+
+        .box {
+            background-color: rgb(240, 202, 202);
+            height: 150px;
+            width: 600px;
+            margin-left: 150px;
+            margin-top: 40px;
+            display: inline-block;
+            background-image: url('https://i02.appmifile.com/377_operator_us/23/02/2023/4e1278d9957eb605676f4258d710cfa1.png?thumb=1&w=830&f=webp&q=85');
+            background-size: cover;
+        }
+
+        .box p {
+            color: aliceblue;
+            font-size: 30px;
+            font-weight: 40;
+            margin-right: 50px;
+        }
+
+        .box img {
+            margin-left: 500px;
+            margin-top: 20px;
+        }
+
+        .box1 {
+            background-color: rgb(240, 202, 202);
+            height: 150px;
+            width: 600px;
+            margin-left: 20px;
+            margin-top: 40px;
+            display: inline-block;
+            background-image: url('https://i02.appmifile.com/681_operator_us/23/02/2023/28d631a5cc51c2e100bf4eeac08d3f72.png?thumb=1&w=830&f=webp&q=85');
+            background-size: cover;
+        }
+
+        .box1 p {
+            color: aliceblue;
+            font-size: 30px;
+            font-weight: 20;
+
+
+        }
+
+        .box1 img {
+            margin-left: 500px;
+            margin-top: 20px;
+        }
+
+        .Cards {
+            background-color: rgb(241, 253, 253);
             height: 200px;
-            width: 1200px;
-            background-color: black;
+            width: 1230px;
+            margin-top: 40px;
             display: block;
             margin-left: auto;
             margin-right: auto;
-            margin-top:90px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .Cards:hover {
+            box-shadow: 20px 20px 10px grey;
+        }
+
+        .phone {
+            display: flex;
+            flex-direction: row-reverse;
+
+
+        }
+
+        .phone h2 {
+            display: block;
+            font-size: 30px;
+            margin-right: 350px;
+            justify-content: start;
+            margin-top: 80px;
+
+        }
+
+        .phone h2:hover {
+            color: orange;
+        }
+
+        .phone h3 {
+            margin-right: 300px;
+            margin-top: 80px;
+        }
+
+        .phone1 {
+            display: inline-block;
+        }
+
+        .phone1 p {
+            margin-left: 700px;
+            margin-top: 0px;
+            padding-top: 20px;
+
+
+        }
+
+
+        .phone1 h3 {
+            margin-left: 700px;
+            margin-top: -150px;
+            font-size: 30px;
+        }
+
+        .phone1 h3:hover {
+            color: orange;
+        }
+
+        .warn {
+            margin-right: 0px;
+        }
+
+        .card1 {
+            margin-left: 130px;
+            margin-top: 20px;
+        }
+
+
+
+        .footer {
+            height: 300px;
+            background-color: #151413;
+            display: flex;
+            margin-top: 50px;
+        }
+
+        .ft1 h3 {
+            color: #f0eeee;
+            margin-top: 40px;
+            margin-left: 20px;
+            font-weight: 20;
+            font-size: 20px;
+        }
+
+        .ft1_1 {
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+
+        }
+
+        .ft1_1 a {
+            padding: 10px;
+            margin-top: -10px;
+            margin-left: 10px;
+            color: gray;
+        }
+
+        .logos {
+            color: #f0eeee;
+            font-weight: 20;
+            margin-top: 80px;
+            margin-left: 140px;
+
+        }
+
+        .socio {
+            padding-left: 200px;
+        }
+
+        .png {
+            display: flex;
+            gap: 60px;
+            background-color: #f0eeee;
+            height: 80px;
+            align-items: center;
+            border-radius: 10px;
+
         }
     </style>
 </head>
@@ -75,12 +275,128 @@
     <div class="txt">
         <h1>Xiaomi Support</h1>
     </div>
-    <div class="icons">
-        <img src="" >
-        <img src="" >
-        <img src="" >
-        <img src="" >
+
+    <div class="sym">
+        <div class="acc">
+            <img src="images\financial.png" height="100px">
+            <h2>Account Service</h2>
+        </div>
+
+        <div class="search">
+            <img src="images\search (1).png" height="100px">
+            <h2>Find Device</h2>
+        </div>
+
+        <div class="warranty">
+            <img src="images\warranty.png" height="100px">
+            <h2>Warranty Policy</h2>
+        </div>
+
+        <div class="guide">
+            <img src="images\guide-book.png" height="100px">
+            <h2>User Guide</h2>
+        </div>
     </div>
+
+
+    <div class="box">
+        <p>What to do before send the phone to repair</p>
+        <img src="images\bfdf9b095156748808a07e4ebd65bb4a.png" height="50px">
+    </div>
+
+    <div class="box1">
+        <p>How to adjust the volume in multiple apps</p>
+        <img src="images\bfdf9b095156748808a07e4ebd65bb4a.png" height="50px">
+    </div>
+
+    <div class="Cards">
+        <div class="phone">
+            <img src="images\fa5dbafc1df33a56b02bae61905301eb!823x269 (1).png" height="200px" width="500px">
+            <h2>Xiaomi Accessibility</h2>
+
+        </div>
+    </div>
+
+    <div class="Cards">
+        <div class="phone">
+            <img src="images\9920cc09a143639ec8902129a1bbebec!823x269 (1).png" height="200px" width="500px">
+            <h2 class="card1">Environmental Social Governance</h2>
+
+        </div>
+    </div>
+
+    <div class="Cards">
+        <div class="phone">
+            <img src="images\0e6bf67909be5e9e26b56f62e62fc02e!320x320 (1).png" height="200px" width="">
+            <h2 class="warn">Proposition 65 Warnings
+            </h2>
+
+        </div>
+    </div>
+
+    <div class="Cards">
+        <div class="phone1">
+            <img src="images\fa5dbafc1df33a56b02bae61905301eb!823x269 (1).png" height="200px" width="500px">
+            <h3>Contact Us</h2>
+                <p>
+                    <a href="">Call US : +122220222222</a><br>
+                    <a href=""><img src="" alt=""> Live Chat</a><br>
+                    <a href="">Service.us@support.mi.com</a>
+                </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="ft1">
+            <h3>SUPPORT</h3>
+            <div class="ft1_1">
+                <a href="">Warranty</a>
+                <a href=""> User Guide</a>
+                <a href=""> Scooter Safety Notice</a>
+                <a href=""> Proposition 65 Warnings</a>
+            </div>
+        </div>
+
+        <div class="ft1">
+            <h3>ABOUT US</h3>
+            <div class="ft1_1">
+                <a href="">Xiaomi</a>
+                <a href=""> Leadership Team</a>
+                <a href=""> Privacy Policy</a>
+                <a href=""> Integrity & Compliance</a>
+                <a href=""> Trust Center</a>
+
+            </div>
+        </div>
+
+
+
+        <div class="ft1">
+            <h3>ABOUT US</h3>
+            <div class="ft1_1">
+                <a href="">Email:service.us@support.mi.com</a>
+                <a href="">Hotline：1 833 422 3338
+                </a>
+                <a href=""> Service time：Mon - Fri, 9 AM - 4 PM EST</a>
+
+            </div>
+        </div>
+        <div class="socio">
+            <div class="logos">
+                <h3>Follow Xiaomi</h3>&nbsp;&nbsp;
+            </div>
+            <div class="png">
+                <img src="images\facebook.png" height="40px">
+                <img src="images\youtube.png" height="40px">
+                <img src="images\instagram.png" height="40px">
+                <img src="images\twitter.png" height="40px">
+                <img src="images\tiktok.png" height="40px">
+            </div>
+
+
+        </div>
+    </div>
+
 
 </body>
 
